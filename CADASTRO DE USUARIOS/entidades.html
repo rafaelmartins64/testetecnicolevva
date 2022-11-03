@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teste tecnico - Entidades</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script> 
+</head>
+<body>
+
+  <div>
+    <form onsubmit="getOneUser()">
+      <label for="id">Pesquisar pelo Id</label><br>
+      <input type="text" id="id">
+      <button type="submit">Listar</button>
+    </form>
+  </div>
+
+  <div>
+    <form onsubmit="deleteUser()">
+      <label for="deletId">Deletar Usuário pelo Id</label><br>
+      <input type="text" id="deleteId" placeholder="Id do Usuário">
+      <button type="submit">Deletar</button>   
+    </form><br><br>
+  </div>
+
+  <div>
+    <button onclick="getUser()">Listar Todos os Usuários</button><br>
+  </div><br>
+ 
+
+  <div>
+    <a href="alterar.html">
+      <button>Editar Usuário</button>
+    </a>
+  </div><br>
+
+  <div>
+    <a href="index.html">
+      <button>Pagina de Cadastro</button>
+    </a>
+  </div><br><br>
+
+  <div id="renderResults">
+  </div>
+ 
+</body>
+</html>

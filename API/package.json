@@ -1,0 +1,16 @@
+{
+  "name": "aprendendo_api",
+  "version": "1.0.0",
+  "description": "primeiro projeto 2022",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "save": "^2.9.0"
+  }
+}
